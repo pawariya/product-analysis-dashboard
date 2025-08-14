@@ -87,7 +87,6 @@ plt.tight_layout()
 plt.show()
 
 
-# Create summary data files for Tableau
 # 1. Daily stats
 daily_stats = df.groupby('event_date').agg({
     'user_id': 'nunique',
@@ -105,18 +104,18 @@ feature_stats.columns = ['date', 'feature', 'usage_count']
 event_stats = df.groupby(['event_date', 'event_type']).size().reset_index()
 event_stats.columns = ['date', 'event_type', 'count']
 
-# Save all files
+# save
 daily_stats.to_csv('daily_stats.csv', index=False)
 feature_stats.to_csv('feature_stats.csv', index=False)
 event_stats.to_csv('event_stats.csv', index=False)
 df.to_csv('raw_events.csv', index=False)
 
-print("✅ Created 4 CSV files for your dashboard:")
+print(" Created 4 CSV files for dashboard:")
 print("- daily_stats.csv (main KPIs)")
 print("- feature_stats.csv (feature trends)")
 print("- event_stats.csv (event breakdown)")
 print("- raw_events.csv (full dataset)")
 
-# Show what's in your main dashboard file
+#final print
 print("\nPreview of daily_stats.csv:")
 print(daily_stats.head())
