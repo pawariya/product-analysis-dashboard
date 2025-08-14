@@ -1,1 +1,3 @@
 # product-analysis-dashboard
+
+<img width="1298" height="1346" alt="Product Analysis Dashboard" src="https://github.com/user-attachments/assets/96ac12e5-f311-43cf-8100-b801b8b4e6bf" />
