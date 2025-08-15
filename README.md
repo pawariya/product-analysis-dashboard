@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 Comprehensive analytics dashboard built in **Tableau** to track user engagement, calculate retention rates, and identify peak usage patterns for strategic business insights.
 
@@ -17,7 +17,7 @@ Comprehensive analytics dashboard built in **Tableau** to track user engagement,
 
 ---
 
-## 📈 Key Business Insights
+## Key Insights
 
 ### **User Engagement Patterns**
 - **Peak Usage:** Mid-week engagement 21% higher than weekends
@@ -54,7 +54,7 @@ Comprehensive analytics dashboard built in **Tableau** to track user engagement,
 
 ---
 
-## Dashboard Features
+## Features
 
 **Interactive Elements:**
 - Date range filtering for custom analysis periods
@@ -70,7 +70,7 @@ Comprehensive analytics dashboard built in **Tableau** to track user engagement,
 
 ---
 
-## Business Impact
+## Its Impact
 
 **Measurable Outcomes:**
 - **207 average daily users** baseline established for growth tracking
@@ -85,7 +85,7 @@ Comprehensive analytics dashboard built in **Tableau** to track user engagement,
 
 ---
 
-## 🎯 Next Steps & Scalability
+## Next Steps
 
 **Immediate Enhancements:**
 - Real-time data pipeline integration
