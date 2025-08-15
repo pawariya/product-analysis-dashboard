@@ -1,4 +1,4 @@
--- Calculate 7-day retention rate by cohort
+-- Calculates 7-day retention rate by cohort
 WITH user_cohorts AS (
   SELECT 
     user_id, 
